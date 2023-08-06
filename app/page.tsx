@@ -1,9 +1,11 @@
+import About from "@/components/about";
 import Main from "@/components/main";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen p-10 text-white">
+    <main className="w-full text-white">
       <Main />
+      <About />
     </main>
   );
 }
