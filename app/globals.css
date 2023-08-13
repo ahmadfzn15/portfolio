@@ -26,3 +26,6 @@
     @apply before:content-[''] before:absolute before:w-0 before:bottom-0 before:bg-blue-500 before:h-[2px] before:transition-all before:-skew-x-[45deg] py-1;
   }
 }
+.shadow-custom {
+  box-shadow: 0 0 100px blue;
+}
