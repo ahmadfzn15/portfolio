@@ -35,7 +35,7 @@ export default function Main() {
             className="w-[400px] h-[400px] rounded-full overflow-hidden ring ring-blue flex justify-center items-center shadow-profile"
             ref={profileImage}
           >
-            <Image src="/img/lusi.jpeg" alt="Photos" width="400" height="400" />
+            <Image src="/img/lusi.jpg" alt="Photos" width="400" height="400" />
           </div>
         </div>
       </div>

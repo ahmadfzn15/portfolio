@@ -2,19 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 ::-webkit-scrollbar {
   width: 13px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: darkgray;
-  border-radius: 10px;
+  @apply bg-slate-600 rounded-lg
 }
 
 ::-webkit-scrollbar-thumb:hover {
