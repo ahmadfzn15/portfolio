@@ -26,12 +26,6 @@ export default function Navbar() {
           >
             Projects
           </Link>
-          <Link
-            href="/portofolio"
-            className="relative actives before:hover:w-full"
-          >
-            Portofolio
-          </Link>
         </div>
       </nav>
     </>
